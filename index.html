@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="main-heading">Password Generator</h1>
+
+    <div class="main-container">
+
+        <div class="display">
+            <input type="number" id="lengthInput" placeholder="Password length (e.g 8)">
+        </div>
+
+        <div class="display">
+            <input type="text" id="passwordOutput" placeholder="Your password" readonly>
+        </div>
+
+        <div class="buttons">
+            <button onclick="generate()">Generate</button>
+            <button onclick="clearAll()">Clear</button>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
